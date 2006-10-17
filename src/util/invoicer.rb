@@ -3,6 +3,7 @@
 
 require 'ydim/config'
 require 'ydim/client'
+require 'openssl'
 
 module XmlConv
 	module Util
@@ -20,13 +21,18 @@ class Invoicer
         ydim_inv.currency = currency
         ydim_inv.payment_period = 30
         item_data = groups.sort.collect { |group, bdds|
-          amount = bdds.inject(0) { |memo, bdd| memo + bdd.invoiced_amount }
+					amount = 0
+					invoices = 0
+          bdds.each { |bdd| 
+						amount += bdd.invoiced_amount 
+						invoices += 1 unless(bdd.invoices.empty?)
+					}
           {
-            :price    =>  (amount * 3.0) / 1000.0,
+            :price    =>  (amount * 1.5) / 1000.0,
             :quantity =>  1,
-            :text     =>  sprintf(format, group.to_s, amount, bdds.size),
+            :text     =>  sprintf(format, group.to_s, amount, invoices),
             :time			=>	Time.local(date.year, date.month, date.day),
-            :unit     =>  "0.3%",
+            :unit     =>  "0.15%",
           }
         }
         client.add_items(ydim_inv.unique_id, item_data)

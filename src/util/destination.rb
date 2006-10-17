@@ -43,7 +43,11 @@ module XmlConv
           delivery.each { |part| do_deliver(part) }
         else
           FileUtils.mkdir_p(@path)
-          @filename = delivery.filename
+          @filename = if(delivery.respond_to?(:filename))
+												delivery.filename
+											else
+												"%.5f.txt" % Time.now.to_f
+											end
           path = File.expand_path(@filename, @path)
           File.open(path, 'w') { |fh| fh << delivery.to_s }
         end

@@ -6,7 +6,8 @@ $: << File.expand_path('../src', File.dirname(__FILE__))
 require 'drb/drb'
 require 'util/destination'
 require 'util/transaction'
-require 'etc/config'
+
+load(File.expand_path('../etc/config.rb', File.dirname(__FILE__)))
 
 begin
 	request = Apache.request
