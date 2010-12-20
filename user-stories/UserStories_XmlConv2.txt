@@ -4,7 +4,7 @@
 
 == 2004-06-15 Marcel Vogelsang <marcel.vogelsang@circon.ch>
 
-*	Herr Vogelsang lässt den i/2-Cronjob alle 3o Minuten laufen, beginnend um 0600 Uhr bis 1900 Uhr.
+* Herr Vogelsang lässt den i/2-Cronjob alle 30 Minuten laufen, beginnend um 0600 Uhr bis 1900 Uhr.
 
 == 2004-06-11  Hannes Wyss  <hwyss@ywesee.com>
 
@@ -54,13 +54,13 @@
 	werden.
 	+ Eintrag durch Zeno Davatz, Eintrag und merge durch Hannes Wyss
 
-= 2004-06-03 Zeno Davatz <zdavatz@ywesee.com>
+== 2004-06-03 Zeno Davatz <zdavatz@ywesee.com>
 
 * Bemerkung: 
 	Bitte jeweils erwähnen an wen die Frage gerichtet ist. In diesem Fall Circon
 	oder WF.
 
-= 2004-06-03  Hannes Wyss  <hwyss@ywesee.com>
+== 2004-06-03  Hannes Wyss  <hwyss@ywesee.com>
 
 * Fragen zu User-Story: Order 
 	Welche Edifakt-Felder sind für FirstName (Employee) und LastName vorgesehen?
