@@ -11,8 +11,6 @@ require 'util/validator'
 require 'thread'
 require 'odba'
 
-VERSION = '2.0.0'
-
 module XmlConv
 	module Util
 		class Application

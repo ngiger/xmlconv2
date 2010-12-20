@@ -6,6 +6,7 @@ Rakefile
 bin/admin
 bin/xmlconvd
 data/grammar/i2.grammar
+lib/xmlconv2.rb
 src/conversion/bdd_geh.rb
 src/conversion/bdd_i2.rb
 src/conversion/bdd_xml.rb
