@@ -18,7 +18,7 @@ Converts XML files to flat files. Works nicely with i2.
 
 * Masaomi Hatakeyama
 * Zeno R.R. Davatz
-* Hannes Wyss (up to Version 1.0)
+* Hannes Wyss (up to Version 2.0)
 
 == LICENSE:
 
