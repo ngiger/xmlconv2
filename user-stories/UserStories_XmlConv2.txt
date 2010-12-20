@@ -1,21 +1,26 @@
-2004-06-25 Eugen Schaadt <eugen.schaadt@circon.net>
+== 2004-06-25 Eugen Schaadt <eugen.schaadt@circon.net>
+
 * Herr Schaadt hat die Documentation für Invoice und Confirm erstellt
 
-2004-06-15 Marcel Vogelsang <marcel.vogelsang@circon.ch>
+== 2004-06-15 Marcel Vogelsang <marcel.vogelsang@circon.ch>
+
 *	Herr Vogelsang lässt den i/2-Cronjob alle 3o Minuten laufen, beginnend um 0600 Uhr bis 1900 Uhr.
 
-2004-06-11  Hannes Wyss  <hwyss@ywesee.com>
+== 2004-06-11  Hannes Wyss  <hwyss@ywesee.com>
+
 * Ftp-Passwords
 	Ich habe das ftpassword tool auf dem Produktions-Server installiert.
 	Synopsis: 
 	ftpassword --passwd --file /etc/proftpd/proftpd.passwd \
 	           --change-password --name janico
 
-2004-06-10 Zeno Davatz <zdavatz@ywesee.com>
+== 2004-06-10 Zeno Davatz <zdavatz@ywesee.com>
+
 *	Copyright by ywesee mit Link auf unsere page 
 	-	Bitte auf Login und allen anderen Seiten unten links.
 
-2004-06-10  Hannes Wyss  <hwyss@ywesee.com>
+== 2004-06-10  Hannes Wyss  <hwyss@ywesee.com>
+
 * Synopsis
 	+ zrr: untiges wurde per Mail kommuniziert.
 	xmlconv empfängt momentan nur Bestellungen. Diese müssen an
@@ -39,7 +44,8 @@
 	2. ev. Anpassungen, so wenig wie möglich
 	3. Upgrade auf dem Whitie
 
-2004-06-04  Eugen Schaadt  <Eugen.Schaadt@circon.cc>
+== 2004-06-04  Eugen Schaadt  <Eugen.Schaadt@circon.cc>
+
 * Klarstellung User-Story: Order
 	Die Felder 201 bis 230 gehören zu einem Loop für Adressen (ist in der
 	Dokumentation falsch beschrieben). Feld 201 dient zur Identifikation 
@@ -48,12 +54,14 @@
 	werden.
 	+ Eintrag durch Zeno Davatz, Eintrag und merge durch Hannes Wyss
 
-2004-06-03 Zeno Davatz <zdavatz@ywesee.com>
+= 2004-06-03 Zeno Davatz <zdavatz@ywesee.com>
+
 * Bemerkung: 
 	Bitte jeweils erwähnen an wen die Frage gerichtet ist. In diesem Fall Circon
 	oder WF.
 
-2004-06-03  Hannes Wyss  <hwyss@ywesee.com>
+= 2004-06-03  Hannes Wyss  <hwyss@ywesee.com>
+
 * Fragen zu User-Story: Order 
 	Welche Edifakt-Felder sind für FirstName (Employee) und LastName vorgesehen?
 	Ich kann mir folgendes vorstellen:
@@ -74,7 +82,8 @@
 	Status Quo fürs Datumshandling: wenn das XML-Datum geparst werden kann, gilt
 	die geparste Version. Andernfalls wird jeweils das aktuelle Datum verwendet.
 
-2004-05-06  Zeno Davatz  <zdavatz@ywesee.com>
+== 2004-05-06  Zeno Davatz  <zdavatz@ywesee.com>
+
 * User-Story: Ablauf / External Interfaces
 	DESCRIPTION:
 	- WF sendet eine XML-Bestellung an unsere IP. 
