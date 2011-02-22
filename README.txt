@@ -2,6 +2,10 @@
 
 * http://scm.ywesee.com/?p=xmlconv2/.git;a=summary
 
+You can find a graphical overview here
+
+* http://xmlconv2.rubyforge.org/xmlconv2.jpeg
+
 == DESCRIPTION:
 
 Converts XML files to flat files. Works nicely with i2.
